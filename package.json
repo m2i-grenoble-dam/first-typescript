@@ -1,0 +1,14 @@
+{
+  "name": "first-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"parcel public/*.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "^2.8.3"
+  }
+}
