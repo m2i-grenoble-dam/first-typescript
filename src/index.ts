@@ -33,3 +33,23 @@ maFonction(10);
 function maFonction(monArgument:number):string {
     return "bonjour";
 }
+
+let uneVariable = 'bonjour';
+/**
+ * En général, on fait en sorte que nos tableaux contiennent un seul et même type de 
+ * données, afin d'éviter les erreurs et de 
+ */
+let unTableau:string[] = ['bonjour', 'true', 'null', '10'];
+
+for (const item of unTableau) {
+    console.log(item);
+}
+
+for (let index = 0; index < unTableau.length; index++) {
+    const item = unTableau[index];
+    console.log(item);
+}
+
+unTableau.forEach((item) => {
+    console.log(item);
+})
