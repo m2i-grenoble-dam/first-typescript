@@ -1,9 +1,13 @@
-let nbEtoile = '*';
+let etoiles = '*';
 
-for (let i = 0; i < 5; i++) {    
-    
-    console.log(nbEtoile);
-    nbEtoile+='**';
+for (let i = 0; i < 5; i++) {
+
+    let espaces = '';
+    for(let j = 0; j < 4-i; j++) {
+        espaces += ' ';
+    }
+    console.log(espaces + etoiles);
+    etoiles+='**'; 
     
 }
 
@@ -11,7 +15,7 @@ for (let i = 0; i < 5; i++) {
 
 //version avec boucles imbriquées
 /*
-let nbEtoile = 3;
+let nbEtoile = 1;
 
 for (let i = 0; i < 5; i++) {    
     
@@ -26,3 +30,4 @@ for (let i = 0; i < 5; i++) {
 }
 
 */
+
