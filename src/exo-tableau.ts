@@ -17,3 +17,24 @@ for (let index = 0; index < ages.length; index++) {
         console.log(`${item} is too young`);
     }
 }
+
+//Exo prompt qui ajoute des trucs dans un tableau
+let list:string[] = [];
+
+while(true) {
+
+    let valeur = prompt('Rentrez une nouvelle valeur ?');
+    if(valeur == 'exit') {
+        break;
+    }
+    
+    list.push(valeur);
+    
+   
+    for (const item of list) {
+        console.log(item, item.length);
+    }
+    console.log('--------------');
+
+
+}

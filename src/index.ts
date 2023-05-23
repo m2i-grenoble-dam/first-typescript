@@ -53,3 +53,28 @@ for (let index = 0; index < unTableau.length; index++) {
 unTableau.forEach((item) => {
     console.log(item);
 })
+
+// let result = prompt('ça va ?');
+// console.log(result);
+
+interface Personne {
+    nom:string;
+    prenom:string;
+    age:number;
+}
+
+
+let personne:Personne = {
+    age: 34,
+    nom: 'truc',
+    prenom: 'bidule'
+}
+
+let personne2 = {
+    prenom: 'Thierry',
+    nom: 'Becaro',
+    age: 65
+}
+
+
+console.log(personne2.nom);
