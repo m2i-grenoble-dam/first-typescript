@@ -70,9 +70,9 @@ let personne:Personne = {
     prenom: 'bidule'
 }
 
-let personne2 = {
-    prenom: 'Thierry',
-    nom: 'Becaro',
+let personne2: Personne = {
+    prenom: 'Soumia',
+    nom: 'Ben Ayed',
     age: 65
 }
 
